@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="GET" class="form-datos">
+        <h3>Formulario de datos</h3>
+        <div class="content-input ">
+            <div class="filname">
+                <label for="nombre">Ingrese nombre</label>
+            </div>
+            <input type="text" id="nombre" placeholder="Ej. Juan Carlos" pattern="[A-Za-z]+" required>
+        </div>
+        <div class="content-input ">
+            <div class="filname">
+                <label for="apellido">Ingrese apellido</label>
+            </div>
+            <input type="text" id="apellido" placeholder="Ej. Perez Perez" pattern="[A-Za-z]+" required>
+        </div>
+        <div class="content-input ">
+            <div class="filname">
+                <label for="edad">Ingrese edad</label>
+            </div>
+            <input type="number" id="edad" placeholder="12" min="18" max="80" maxlength="2" required>
+        </div>
+        <div class="content-input ">
+            <div class="filname">
+                <label for="sexo">Seleccione sexo</label>
+            </div>
+            <select name="sexo" id="sexo">
+                <option value="0" selected>Seleccione</option>
+                <option value="1">Maculino</option>
+                <option value="2">Femenino</option>
+            </select>
+        </div>
+        <div class="content-input ">
+            <div class="filname">
+                <label for="dni">Ingrese DNI</label>
+            </div>
+            <input type="text" id="dni" placeholder="04040404" pattern="[A-Za-z0-9]+" maxlength="8" required>
+        </div>
+        <div class="content-input ">
+            <div class="filname">
+                <label for="correo">Ingrese correo</label>
+            </div>
+            <input type="email" id="correo" placeholder="juan@perez.com" required>
+        </div>
+        <div class="content-input ">
+            <input type="submit" value="Enviar" class="btn">
+        </div>
+    </form>
+</body>
+
+</html>
