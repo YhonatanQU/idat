@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="nombre">Ingrese nombre</label>
+            <input type="text" id="nombre" placeholder="Ej. Juan Perez" required>
+        </div>
+        <div>
+            <label for="direccion">Ingrese direccion</label>
+            <input type="text" id="direccion" placeholder="Av. Peru N° 9999, Lima, Peru" required>
+        </div>
+        <div>
+            <label for="telefono">Ingrese telefono</label>
+            <input type="tel" id="telefono" placeholder="999 999 999" required>
+        </div>
+        <div>
+            <label for="edad">Ingrese edad</label>
+            <input type="number" id="edad" placeholder="12" required>
+        </div>
+        <div>
+            <label for="fecha_nac">Ingrese fecha de nacimiento</label>
+            <input type="date" id="fecha_nac" placeholder="12" required>
+        </div>
+        <div>
+            <label for="correo">Ingrese correo</label>
+            <input type="email" id="correo" placeholder="juan@perez.com" required>
+        </div>
+        <div>
+            <label for="sexo">Seleccione sexo</label>
+            <select name="sexo" id="sexo">
+                <option value="0" selected>Seleccione</option>
+                <option value="1">Maculino</option>
+                <option value="2">Femenino</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>
