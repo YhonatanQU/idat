@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+header,
+main {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    height: 400px;
+    background: rgb(25, 137, 212);
+    position: relative;
+    margin-top: 0;
+}
+
+header>span {
+    background: rgba(2, 10, 134, 0.8);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    font-size: 20px;
+    width: 190px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+div {
+    margin: 10px;
+    display: inline-block;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+}
+
+textarea {
+    width: 650px;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.detalle {
+    margin: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.descripcion {
+    background: rgb(0, 123, 206);
+    padding: 15px;
+}
+
+.skills {
+    background: rgb(139, 23, 248);
+}
+
+.portafolio {
+    background: rgb(201, 181, 0);
+}
+
+.clientes {
+    background: rgb(13, 31, 70);
+}
+
+.contacto {
+    background: rgb(2, 115, 160);
+    text-align: center;
+}
+
+.btn-enlace {
+    text-decoration: none;
+    padding: 8px;
+    background: rgb(255, 5, 255);
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.btn-enlace:hover {
+    background: rgb(13, 31, 70);
+}
+
+.btn {
+    background: rgb(13, 31, 70);
+    padding: 10px;
+    margin: 0;
+    border: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background: rgb(57, 96, 182);
+    border: 1px rgb(13, 31, 70) solid;
+}
